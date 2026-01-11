@@ -1,0 +1,105 @@
+body {
+    background-image: url("chad-montano-MqT0asuoIcU-unsplash.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+    background-color: #492626;
+}
+#container {
+    background-color: rgba(135, 88, 17, 0.495);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 550px;
+    height: 725px;
+    border-radius: 40px;
+    color: white;
+    position: fixed; right: 20px; top: 20px;
+    max-width: 90%;
+    align-content: center;
+    margin: 20px auto; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    font-family: "Alegreya", serif;
+    color: white;
+    align-self: center;
+  
+}
+input {
+    font-family: "Alegreya", serif;
+    padding: 5px;
+}
+#addTip {
+    background-color:rgb(74, 149, 67);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: "Alegreya", serif ;
+}
+#btn {
+    background-color: rgb(162, 60, 92);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: "Alegreya", serif;
+}
+#tip {
+    font-family: "Alegreya", serif;
+    display: none;
+}
+#showTotalAmountToPay {
+    display: flex;
+}
+#billSplit, #totalTip, #totalAmount {
+    font-family: "Alegreya", serif;
+    background-color: rgba(93, 173, 93, 0.881);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#addTip, 
+#btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+@media (max-width: 480px) {
+  #btn {
+    margin-bottom: 12px;
+  }
+  #showTotalAmountToPay {
+    margin-top: 12px;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+
+  #billSplit,
+  #totalTip,
+  #totalAmount {
+    margin: 0;
+    padding: 14px;
+    width: 100%;
+  }
+
+  #dividedBill,
+  #dividedTip,
+  #billAndTip {
+    min-width: 80px;
+  }
+  #container {
+    border-radius: 28px;
+  }
+}
