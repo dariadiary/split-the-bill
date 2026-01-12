@@ -1,4 +1,4 @@
-# Split the Bill — Simple Bill Splitting App
+# Split the Bill - Simple Bill Splitting App
 
 ## Project Description
 
@@ -7,6 +7,7 @@ Split the Bill is a small web app that helps you quickly split a bill between pe
 The app is minimal, practical, and focused on clean UI and simple logic.
 
 This project was created as part of the **JavaScript course by Canshecode**, with a focus on JavaScript fundamentals, DOM, and simple calculation logic.
+
 
 ## Features
 
@@ -24,7 +25,7 @@ This project was created as part of the **JavaScript course by Canshecode**, wit
 
 ## Live Demo
 
-Split your bill here:  
+Split your bill here -->  
 https://split-the-bill-by-daria.netlify.app/
 
 ## Planned Improvements
@@ -34,3 +35,4 @@ https://split-the-bill-by-daria.netlify.app/
 - Reset button
 - Save last values in LocalStorage
 - Custom tip percentage input
+
